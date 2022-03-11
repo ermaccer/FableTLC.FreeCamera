@@ -4,6 +4,8 @@ A simple plugin that restores free camera functionality in the PC version of Fab
 
 # Installation
 
+** Tested only with Steam version! **
+
 Download binary files from [Releases](https://github.com/ermaccer/FableTLC.FreeCamera/releases) and extract the .zip
 archive to root folder of Fable TLC.
 
