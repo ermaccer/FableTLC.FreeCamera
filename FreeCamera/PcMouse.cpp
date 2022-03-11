@@ -7,7 +7,6 @@
 CCamera* mouseLookCam = nullptr;
 
 bool CPCMouseLook::m_bEnableFreeCamera = false;
-CVector CPCMouseLook::m_vecCameraRotation = {};
 
 void CPCMouseLook::Update()
 {	

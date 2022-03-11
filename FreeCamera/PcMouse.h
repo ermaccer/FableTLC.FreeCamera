@@ -17,7 +17,6 @@ struct CCamera {
 class CPCMouseLook {
 public:
 	static bool m_bEnableFreeCamera;
-	static CVector m_vecCameraRotation;
 	void Update();
 };
 
