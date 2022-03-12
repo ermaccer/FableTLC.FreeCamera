@@ -1,6 +1,7 @@
 # FableTLC.FreeCamera
 
-A simple plugin that restores free camera functionality in the PC version of Fable: The Lost Chapters.
+A simple plugin that adds/restores free camera functionality in the PC version of Fable: The Lost Chapters.
+HUD can be disabled as well.
 
 # Installation
 
@@ -17,3 +18,5 @@ Archive breakdown:
 # Usage
 
 Press F1 in game at any time to toggle free camera.
+
+Press F2 in game at any time to toggle HUD.
