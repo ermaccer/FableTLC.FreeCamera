@@ -18,8 +18,8 @@ Archive breakdown:
 
 # Usage
 
-Press F1 in game at any time to toggle free camera.
+Press NUM1 in game at any time to toggle free camera.
 
-Press F2 in game at any time to toggle HUD.
+Press NUM2 in game at any time to toggle HUD.
 
 These keys can be changed in the FreeCamera.ini file.
