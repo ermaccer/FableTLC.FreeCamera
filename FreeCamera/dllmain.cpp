@@ -3,6 +3,7 @@
 #include "MemoryMgr.h"
 #include "PcMouse.h"
 #include "InputProcess.h"
+#include "HUD.h"
 #include <iostream>
 
 using namespace Memory::VP;
@@ -17,6 +18,7 @@ void Init()
 #endif // _DEBUG
 
 	InjectHook(0x69B7F4, &CPCMouseLook::Update);
+	InjectHook(0x69EAEE, HUD::Display);
 	Patch(0x1237A00, &CInputProcessCameraLookAround::Update);
 }
 

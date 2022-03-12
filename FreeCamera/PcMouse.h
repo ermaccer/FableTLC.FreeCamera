@@ -17,6 +17,7 @@ struct CCamera {
 class CPCMouseLook {
 public:
 	static bool m_bEnableFreeCamera;
+	static bool m_bDisableHUD;
 	void Update();
 };
 
