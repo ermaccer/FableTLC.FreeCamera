@@ -14,9 +14,12 @@ Archive breakdown:
 
  - dinput8.dll - [Ultimate ASI Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader/)
  - FreeCamera.asi
+ - FreeCamera.ini - configuration file
 
 # Usage
 
 Press F1 in game at any time to toggle free camera.
 
 Press F2 in game at any time to toggle HUD.
+
+These keys can be changed in the FreeCamera.ini file.
