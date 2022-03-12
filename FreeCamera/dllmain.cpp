@@ -4,12 +4,14 @@
 #include "PcMouse.h"
 #include "InputProcess.h"
 #include "HUD.h"
+#include "eSettingsManager.h"
 #include <iostream>
 
 using namespace Memory::VP;
 
 void Init()
 {
+	eSettingsManager::Init();
 #ifdef _DEBUG
 	AllocConsole();
 	freopen("CONIN$", "r", stdin);
